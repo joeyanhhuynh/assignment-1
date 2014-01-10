@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS xDocument */
+
+body {
+	font-size: 100%;
+	font-family: Georgia, sans-serif;
+	color: #fff;
+	background-color: rgba(50,3,24,1);
+}
+
+blockquote {
+	background-color: rgba(148,23,81,1);
+	font-size: 18px;
+	width: 600px;
+	height: 250px;
+	border-radius: 20px;
+	color: #FFF;
+	margin: 100px auto auto auto;
+}
+
+blockquote p {
+	content: "\201C";
+    float: left;
+    margin:  -127px 50px 0px 80px;
+}
+
+blockquote:before {
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	color: rgba(184,45,93,1);
+	content: "\201C";
+    float: left;
+	margin:20px;
+    font-size: 700%;
+}
+
+blockquote:after {
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	color: rgba(184,45,93,1);
+	content: "\201D";
+    float: right;
+	margin:  -63px -69px;
+	font-size: 700%;
+}
+
+blockquote cite {
+	font-family: Arial, Arial, Helvetica, sans-serif;
+	color: rgba(244,163,192,1);
+	font-size: 14px;
+	float:right;
+	margin:  0px 53px 0px -65px;
+}
+ 
+blockquote cite:before {
+	content: "\2014 \2009";
+}
+ 
+ 
+ 
+
+
+
+
+
+
